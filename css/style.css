@@ -1,0 +1,92 @@
+/* style of home section */
+.home{
+    height: 95vh;
+    background-image: url(../images/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overLay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+h1{
+    font-size: 60px;
+}
+.open{
+    position: absolute;
+    left: 10px;
+    top: 65%;
+    cursor: pointer;
+}
+/* end of home section  */
+
+/* side bar */
+.sideBar{
+    overflow: hidden;
+    width: 0px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.sideBar i{
+    color: white;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.sideBar i:hover{
+    color: #d62e33;
+}
+.sideBar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+}
+.sideBar ul li a:hover{
+    color: #d62e33;
+}
+/* side bar */
+
+/* start of slider section  */
+.singer .singerHead{
+    cursor: pointer;
+}
+.singer .singerBody{
+    display: none;
+}
+.singer .active{
+    display: block;
+}
+/* end of slider section  */
+
+/* start of counter section  */
+.counter{
+    background-image: url(../images/count.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* end of counter section  */
+
+/* start of contact section */
+.contact .icons .icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777777;
+    color: #777777;
+    transition: 0.3s all;
+}
+.contact .icons .icon:hover{
+    cursor: pointer;
+    border: 1px solid #d62e33;
+    background-color: #d62e33;
+    color: white;
+}
+textarea{
+    resize: none;
+}
+/* end of contact section */
